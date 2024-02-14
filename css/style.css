@@ -261,8 +261,28 @@ header.masthead h1, header.masthead .h1 {
 .has-m-l{
   margin-left: 50px;
 }
+
+.text-align-left li{
+  text-align: left;
+  line-height: 2rem;
+}
+
 @media (max-width: 1000px) {
   .has-m-l{
     margin-left: 0;
   }
+}
+
+/*Tablas*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #C7D8F1;
 }
