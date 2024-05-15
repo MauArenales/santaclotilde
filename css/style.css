@@ -62,6 +62,7 @@ hr.divider-light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
+    
     /*background-color: transparent;*/
   }
   #mainNav .navbar-brand {
@@ -296,6 +297,10 @@ th {
     height: 88px;
   }
 }
+
+.container-logo-gidis {
+}
+
 
 /*menu*/
 
