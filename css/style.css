@@ -286,3 +286,21 @@ th, td {
 th {
   background-color: #C7D8F1;
 }
+
+/*Logo gidis*/
+.logo-gidis{
+  height: 110px;
+}
+@media (max-width: 428px) {
+  .logo-gidis{
+    height: 88px;
+  }
+}
+
+/*menu*/
+
+@media (min-width: 428px) {
+  .menu-principal{
+    height: 53.6px;
+  }
+}
