@@ -309,3 +309,14 @@ th {
     height: 53.6px;
   }
 }
+
+.img-responsive {
+  width: 50%;
+}
+
+@media (max-width: 450px) {
+  .img-responsive {
+    width: 100%;
+  }
+}
+
