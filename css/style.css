@@ -9,8 +9,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.page-section {
-}
+.page-section {}
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
@@ -41,11 +40,13 @@ hr.divider-light {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transition: background-color 0.2s ease;
 }
+
 #mainNav .navbar-brand {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   color: #212529;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-family: Roboto, sans-serif;
@@ -53,67 +54,85 @@ hr.divider-light {
   font-size: 0.8rem;
   padding: 0.9rem 0;
 }
-#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link:active {
   color: #f4623a;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
+
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    
+
     /*background-color: transparent;*/
   }
+
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
+
   #mainNav .navbar-brand:hover {
     color: #000;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link {
     /* color: rgba(255, 255, 255, 0.7); */
     padding: 0 1.5rem;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #000;
   }
+
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
+
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
   }
+
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #f4623a;
   }
+
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
+
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
   }
 }
 
 header.masthead {
-  padding-top: 0; /* Eliminar el espacio superior de relleno */
+  padding-top: 0;
+  /* Eliminar el espacio superior de relleno */
   padding-bottom: calc(10rem - 4.5rem);
   height: 80vh;
   min-height: 30rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../img/img/bg-santa-clotilde.jpg");
-  background-position: center top; /* Ajustar la posición de la imagen */
+  background-position: center top;
+  /* Ajustar la posición de la imagen */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-header.masthead h1, header.masthead .h1 {
+header.masthead h1,
+header.masthead .h1 {
   font-size: 3rem !important;
 }
+
 @media (max-width: 375px) {
   header.masthead {
     background-position: right !important;
@@ -122,6 +141,7 @@ header.masthead h1, header.masthead .h1 {
     min-height: 19rem !important;
   }
 }
+
 @media (max-width: 400px) {
   header.masthead {
     background-position: right;
@@ -131,6 +151,7 @@ header.masthead h1, header.masthead .h1 {
     height: 40vh;
   }
 }
+
 @media (max-width: 450px) {
   header.masthead {
     background-position: right;
@@ -141,6 +162,7 @@ header.masthead h1, header.masthead .h1 {
     min-height: 23rem;
   }
 }
+
 @media (max-width: 500px) {
   header.masthead {
     background-position: right;
@@ -151,20 +173,25 @@ header.masthead h1, header.masthead .h1 {
     min-height: 26rem;
   }
 }
-  @media (min-width: 992px) {
+
+@media (min-width: 992px) {
   header.masthead {
     /*height: 55vh;*/
     min-height: 30rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
+
   header.masthead p {
     font-size: 1.15rem;
   }
-  header.masthead h1, header.masthead .h1 {
+
+  header.masthead h1,
+  header.masthead .h1 {
     font-size: 4rem !important;
   }
 }
+
 @media (min-width: 1200px) {
   header.masthead {
     /*height: 60vh;*/
@@ -172,49 +199,74 @@ header.masthead h1, header.masthead .h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
-  header.masthead h1, header.masthead .h1 {
+
+  header.masthead h1,
+  header.masthead .h1 {
     font-size: 5rem !important;
   }
 }
+
 /*Slider Image START*/
-.slider-img-size{
+.slider-img-size {
   height: 600px;
   width: 100%;
 }
+
 @media (min-width: 300px) {
-  .slider-img-size{
+  .slider-img-size {
     height: 300px;
     width: 100%;
   }
 }
+
 @media (min-width: 600px) {
-  .slider-img-size{
+  .slider-img-size {
     height: 400px;
     width: 100%;
   }
 }
+
 @media (min-width: 992px) {
-  .slider-img-size{
+  .slider-img-size {
     height: 500px;
     width: 100%;
   }
 }
+
 @media (min-width: 1200px) {
-  .slider-img-size{
+  .slider-img-size {
     height: 600px;
     width: 100%;
   }
 }
+
 /*Slider Image END*/
 
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+#portfolio .container-fluid,
+#portfolio .container-sm,
+#portfolio .container-md,
+#portfolio .container-lg,
+#portfolio .container-xl,
+#portfolio .container-xxl {
   max-width: 1920px;
 }
-#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+
+#portfolio .container-fluid .portfolio-box,
+#portfolio .container-sm .portfolio-box,
+#portfolio .container-md .portfolio-box,
+#portfolio .container-lg .portfolio-box,
+#portfolio .container-xl .portfolio-box,
+#portfolio .container-xxl .portfolio-box {
   position: relative;
   display: block;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption,
+#portfolio .container-md .portfolio-box .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,28 +282,49 @@ header.masthead h1, header.masthead .h1 {
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name,
+#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-md .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
+#portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-.notice-responsive h4{
-    font-size: 1rem !important;
+
+.notice-responsive h4 {
+  font-size: 1rem !important;
 }
+
 @media (min-width: 600px) {
-  .notice-responsive h4{
+  .notice-responsive h4 {
     font-size: 1.2rem !important;
   }
 }
+
 /*Contact*/
-.bg-kontact{
+.bg-kontact {
   text-align: center;
   width: 200px;
   background: rgba(121, 121, 121, 0.247);
@@ -259,17 +332,18 @@ header.masthead h1, header.masthead .h1 {
   white-space: nowrap;
   overflow: hidden;
 }
-.has-m-l{
+
+.has-m-l {
   margin-left: 50px;
 }
 
-.text-align-left li{
+.text-align-left li {
   text-align: left;
   line-height: 2rem;
 }
 
 @media (max-width: 1000px) {
-  .has-m-l{
+  .has-m-l {
     margin-left: 0;
   }
 }
@@ -279,33 +353,36 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-th, td {
+
+th,
+td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
+
 th {
   background-color: #C7D8F1;
 }
 
 /*Logo gidis*/
-.logo-gidis{
+.logo-gidis {
   height: 110px;
 }
+
 @media (max-width: 428px) {
-  .logo-gidis{
+  .logo-gidis {
     height: 88px;
   }
 }
 
-.container-logo-gidis {
-}
+.container-logo-gidis {}
 
 
 /*menu*/
 
 @media (min-width: 428px) {
-  .menu-principal{
+  .menu-principal {
     height: 53.6px;
   }
 }
@@ -314,9 +391,29 @@ th {
   width: 50%;
 }
 
+.contenedor-aliados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-aliados .aliado{
+  margin: 0 1rem;
+}
+
+
+
 @media (max-width: 450px) {
   .img-responsive {
     width: 100%;
   }
-}
 
+  .contenedor-aliados {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-aliados .aliado{
+    margin: 1rem 0;
+  }
+}
