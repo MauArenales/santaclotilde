@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "intro": "INTRODUCTION",
+    "justification": "JUSTIFICATION",
+    "objectives": "OBJECTIVES",
+    "visit": "VISIT TO THE HOSPITAL",
+    "members": "MEMBERS",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "title": "Santa Clotilde Project",
+    "description": "Development and Implementation of an Electronic Health Record Management System for the Santa Clotilde Hospital in the Peruvian Amazon",
+    "video-error": "Your browser does not support the video tag. We suggest you upgrade your browser."
+  },
+  "language": "Idioma"
+}

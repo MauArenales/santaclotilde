@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "intro": "INTRODUCCIÓN",
+    "justification": "JUSTIFICACIÓN",
+    "objectives": "OBJECTIVOS",
+    "visit": "VISITA AL HOSPITAL",
+    "members": "PARTICIPANTES",
+    "contact": "CONTACTO"
+  },
+  "hero": {
+    "title": "Proyecto Santa Clotilde",
+    "description": "Desarrollo e Implantación de un Sistema de Gestión de Historias Clínicas Electrónicas para el Hospital Santa Clotilde en la Amazonía Peruana",
+    "video-error": "Tu navegador no soporta la etiqueta de video. Te sugerimos que actualices tu navegador."
+  },
+  "language": "Language"
+}
