@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 function Hero() {
@@ -22,7 +21,9 @@ function Hero() {
           />
         </video>
         <div className="relative z-10 flex items-center justify-center w-full h-full px-6 md:px-10 lg:px-20">
-          <div className="text-center bg-black bg-opacity-60 rounded-2xl text-white p-6 md:p-10 lg:p-20 w-full">
+          <div className="text-center sm:mx-sm md:mx-md lg:mx-lg xl:mx-xl 
+          bg-black bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 border border-gray-700 
+          rounded-3xl text-white p-6 md:p-10 lg:p-20 w-full">
             <h1 className="font-montserrat text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6 lg:mb-8 text-shadow">
               {t('hero.title')}
             </h1>

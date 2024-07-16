@@ -2,7 +2,7 @@
   "nav": {
     "intro": "INTRODUCCIÓN",
     "justification": "JUSTIFICACIÓN",
-    "objectives": "OBJECTIVOS",
+    "objectives": "OBJETIVOS",
     "visit": "VISITA AL HOSPITAL",
     "members": "PARTICIPANTES",
     "contact": "CONTACTO"
@@ -11,6 +11,86 @@
     "title": "Proyecto Santa Clotilde",
     "description": "Desarrollo e Implantación de un Sistema de Gestión de Historias Clínicas Electrónicas para el Hospital Santa Clotilde en la Amazonía Peruana",
     "video-error": "Tu navegador no soporta la etiqueta de video. Te sugerimos que actualices tu navegador."
+  },
+  "map-component": {
+    "texts": [
+      {
+        "title": "Santa Clotilde",
+        "paragraphs": [
+          "En Loreto, una de las regiones más pobres y aisladas del Perú, a seis horas en barco de su capital, Iquitos, se encuentra el pueblo de Santa Clotilde en la rivera del río Napo. Este pueblo de unas 10 000 personas cuenta con un pequeño hospital, el Hospital Santa Clotilde —el único hospital a lo largo de los más de 500 kilómetros de río— y que constituye el corazón de la Micro Red de Salud del Napo."
+        ]
+      },
+      {
+        "title": "Micro Red de Salud del Napo",
+        "paragraphs": [
+          "La Micro Red de Salud del Napo incluye al Hospital Santa Clotilde, 14 postas médicas y un Buque de la Marina de Guerra del Perú (PIAS). La red tiene como área de influencia toda la cuenca del Río Napo y brinda atención médica a una población de 30 mil habitantes distribuidos en 112 comunidades nativas amazónicas.",
+          "A pesar de su importancia, enfrenta graves desafíos que limitan su capacidad para proporcionar una atención médica adecuada. La amplia dispersión geográfica y la escasez de recursos dificultan una cobertura de salud efectiva para todos los habitantes."
+        ]
+      },
+      {
+        "title": "Hospital Santa Clotilde",
+        "paragraphs": [
+          "El Hospital Santa Clotilde es muy particular. Fue fundado en 1986 por dos norteamericanos y obtienen ingresos por el Ministerio de Salud (MINSA), la iglesia y donaciones. Según el ministerio, este hospital corresponde al segundo nivel de atención, categoría 1. Eso significa que debería brindar los servicios de Consulta Externa, Hospitalización, Emergencia, Centro Obstétrico y Centro Quirúrgico. Sin embargo, la realidad es otra.",
+          "Lamentablemente, el hospital no realiza operaciones por la falta de infraestructura y personal. Además, debido a que es la única Institución Prestadora de Servicios de Salud en Santa Clotilde, también tiene que brindar servicios preventivos correspondientes a un establecimiento de salud de primer nivel (postas médicas)."
+        ]
+      }
+    ]
+  },
+  "banner": {
+    "title": "Tu Título Aquí",
+    "texts": {
+      "0": {
+        "subtitle": "Procesos Engorrosos y Duplicidad de Registro",
+        "paragraph": "El hospital usa tanto formatos impresos como sistemas de reporte al MINSA, lo que genera procesos lentos y duplicados, demandando mucho tiempo en registro, consolidación y utilización de datos."
+      },
+      "1": {
+        "subtitle": "Mal Uso de Espacios y Pérdida de Confidencialidad",
+        "paragraph": "El hospital tiene que dedicar varios espacios —que podría destinar a la atención— para resguardar las historias clínicas. Además, estas historias son susceptibles a robos o a ser leídas por personas no autorizadas."
+      },
+      "2": {
+        "subtitle": "Largos Tiempos de Espera para los Pacientes",
+        "paragraph": "Al tener una historia clínica en papel, los tiempos de espera de los pacientes se prologan bastante, porque se tiene que buscar y trasladar los documentos. Esto no solo pasa al comienzo de la atención, sino también al ser derivados entre consultorios, ya que no hay personal para llevar las historias."
+      },
+      "3": {
+        "subtitle": "Desviación del Tiempo del Personal de Salud",
+        "paragraph": "El personal de salud dedica hasta un 80% de su jornada laboral a organizar y llenar los documentos, reduciendo el tiempo disponible para la atención directa de pacientes."
+      },
+      "4": {
+        "subtitle": "Afectación Emocional del Personal de Salud",
+        "paragraph": "La situación recurrente de desorden y la carga administrativa excesiva afectan emocionalmente al personal de salud, generando frustración y desgaste. La mayoría de ellos realizan varias horas extra sin paga para poder cumplir con sus funciones."
+      },
+      "5": {
+        "subtitle": "Historia Clínica Incompleta o Incorrecta",
+        "paragraph": "Las historias clínicas de los pacientes pueden quedar incompletas o afectadas por la inclusión de registros incorrectos, reduciendo su utilidad y fiabilidad."
+      },
+      "6": {
+        "subtitle": "Efecto en los Reportes Médicos Consolidados",
+        "paragraph": "Los reportes e indicadores médicos enviados a instancias superiores como el MINSA y Gobierno Regional se ven afectados en su precisión y puntualidad debido a la ineficiencia en la gestión de datos."
+      }
+    }
+  },  
+  "footer": {
+    "title": "AYÚDANOS A HACER UN CAMBIO POSITIVO",
+    "subtitle": "Juntos podemos hacer la diferencia",
+    "description": "Tu apoyo es crucial para transformar la salud de miles de personas en la cuenca del Río Napo. Si puedes contribuir con donaciones o información vital, contáctanos hoy mismo escribiendo a <a href=\"mailto:gidis@pucp.edu.pe\" class=\"underline\">gidis@pucp.edu.pe</a>.",
+    "button": "Escríbenos un correo",
+    "contact": {
+      "title": "GIDIS - PUCP",
+      "institution": "Pontificia Universidad Católica del Perú (PUCP)",
+      "address": "Av. Universitaria 1801, San Miguel, Lima 32, Perú",
+      "group": "Grupo de Investigación y Desarrollo en Ingeniería de Software",
+      "email": "<a href=\"mailto:gidis@pucp.edu.pe\" class=\"underline\">gidis@pucp.edu.pe</a>",
+      "head": "Mg. Abraham Dávila",
+      "telephone": "+51 999 340 843"
+    },
+    "hospital": {
+      "name": "HOSPITAL SANTA CLOTILDE",
+      "city": "Santa Clotilde, Distrito de Napo",
+      "region": "Provincia de Maynas",
+      "country": "Departamento de Loreto, Perú",
+      "website": "<a href=\"https://sanjosedelamazonas.org/santa-clotilde/\" class=\"underline\" target=\"_blank\">sanjosedelamazonas.org/santa-clotilde/</a>"
+    },
+    "pledge": "&copy; 2024 - Proyecto Santa Clotilde"
   },
   "language": "Language"
 }

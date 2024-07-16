@@ -12,5 +12,30 @@
     "description": "Development and Implementation of an Electronic Health Record Management System for the Santa Clotilde Hospital in the Peruvian Amazon",
     "video-error": "Your browser does not support the video tag. We suggest you upgrade your browser."
   },
+  "map-component": {
+    "texts": [
+      {
+        "title": "The Santa Clotilde Hospital",
+        "paragraphs": [
+          "Six hours by boat from Iquitos, you will find the town of Santa Clotilde on the banks of the Napo River. This town has a small hospital, the Santa Clotilde Hospital, which is the only hospital along more than 500 kilometers of river.",
+          "Santa Clotilde Hospital is part of the Santa Clotilde Health Micro Network, which includes 15 primary care health facilities and a Peruvian Navy ship (PIAS - Napo River). This network has as its area of influence the Napo River basin, covering a population of approximately 30,000 inhabitants distributed in 112 Amazonian native communities. Despite its importance, it faces serious challenges that limit its capacity to provide adequate medical care. The wide geographical dispersion and lack of resources make effective health coverage difficult for all inhabitants."
+        ]
+      },
+      {
+        "title": "Challenges of the Hospital",
+        "paragraphs": [
+          "The Santa Clotilde Hospital faces many challenges due to its remote location. The lack of adequate infrastructure and limited access to medical supplies are constant problems.",
+          "The situation is aggravated by adverse weather conditions and the lack of specialized medical personnel. Despite these challenges, the hospital remains a vital source of medical care for the region's communities."
+        ]
+      },
+      {
+        "title": "Future of the Hospital",
+        "paragraphs": [
+          "With the support of various organizations, the Santa Clotilde Hospital is working to improve its facilities and expand its services.",
+          "The goal is not only to provide basic medical care but also to implement preventive health programs and education for local communities."
+        ]
+      }
+    ]
+  },
   "language": "Idioma"
 }

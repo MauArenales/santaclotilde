@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { IoLanguage } from 'react-icons/io5';
-import flagPeru from '../assets/images/peru.png';
-import flagUsa from '../assets/images/united-states.png';
+import flagPeru from '../assets/icons/flags/peru.png';
+import flagUsa from '../assets/icons/flags/united-states.png';
 
 function LanguageDropdown() {
   const { t, i18n } = useTranslation();
