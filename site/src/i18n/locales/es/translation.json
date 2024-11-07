@@ -1,4 +1,7 @@
 {
+  "barra": {
+    "texto": "GANADORES DEL CAP DE INNOVACIÓN PUCP 2024"	
+  },
   "nav": {
     "intro": "INTRODUCCIÓN",
     "justification": "JUSTIFICACIÓN",
@@ -37,7 +40,7 @@
     ]
   },
   "banner": {
-    "title": "Tu Título Aquí",
+    "title": "Problemas que Afectan Vidas",
     "texts": {
       "0": {
         "subtitle": "Procesos Engorrosos y Duplicidad de Registro",
@@ -68,18 +71,42 @@
         "paragraph": "Los reportes e indicadores médicos enviados a instancias superiores como el MINSA y Gobierno Regional se ven afectados en su precisión y puntualidad debido a la ineficiencia en la gestión de datos."
       }
     }
-  },  
+  },
+  "solution": {
+    "header": "NUESTRA SOLUCIÓN",
+    "title": "Innovación con Impacto Social",
+    "introduction": "Presentamos el Proyecto Santa Clotilde, una iniciativa conjunta entre estudiantes e investigadores en ingeniería de software de la Pontificia Universidad Católica del Perú (PUCP) y el dedicado equipo del Hospital Santa Clotilde.",
+    "point1": "Desarrollo Centrado en el Usuario",
+    "point1Description": "Adaptado a las necesidades reales del hospital y al contexto de la Amazonía peruana para mejorar la atención y eficiencia.",
+    "point2": "Estándares Internacionales",
+    "point2Description": "Uso de estándares como HL7, SNOMED CT y CIE-10 para garantizar calidad e interoperabilidad.",
+    "point3": "Integración con Sistemas",
+    "point3Description": "Facilitando la coordinación con el MINSA y la GERESA para una atención más eficiente y de calidad. Los doctores se concentrarán en la atención y no en llenar documentos."
+  },
+  "mission": {
+    "header": "NUESTRA MISIÓN",
+    "title": "Digitalizar para Salvar Vidas",
+    "introduction": "El Proyecto Santa Clotilde tiene como objetivo implementar un Sistema de Información Hospitalario que incluye Historias Clínicas Electrónicas (HCE) enfocadas, en la primera fase del proyecto, en la atención a niños y gestantes, que representan las áreas más críticas del hospital. Esta solución tecnológica permitirá:",
+    "point1": "Reducir Tiempos de Espera",
+    "point1Description": "Procesos más ágiles que permiten atender a más pacientes en menos tiempo.",
+    "point2": "Mejorar la Calidad de Atención",
+    "point2Description": "Acceso inmediato a información médica completa y precisa para un diagnóstico y tratamiento adecuados.",
+    "point3": "Optimizar Recursos",
+    "point3Description": "Liberar al personal de salud de tareas administrativas para que puedan dedicarse a lo que mejor saben hacer: cuidar de la salud de las personas.",
+    "point4": "Integración con Sistemas Nacionales",
+    "point4Description": "Facilitar la comunicación y reporte con entidades como el MINSA y la GERESA, mejorando la coordinación y planificación en salud."
+  },
   "footer": {
     "title": "AYÚDANOS A HACER UN CAMBIO POSITIVO",
     "subtitle": "Juntos podemos hacer la diferencia",
-    "description": "Tu apoyo es crucial para transformar la salud de miles de personas en la cuenca del Río Napo. Si puedes contribuir con donaciones o información vital, contáctanos hoy mismo escribiendo a <a href=\"mailto:gidis@pucp.edu.pe\" class=\"underline\">gidis@pucp.edu.pe</a>.",
+    "description": "Tu apoyo es crucial para transformar la salud de miles de personas en la cuenca del Río Napo. Si puedes contribuir con donaciones o información vital, contáctanos hoy mismo escribiendo a <a href=\"mailto:gidis.proy.hii1sc-grupo@pucp.edu.pe\" class=\"underline\">gidis.proy.hii1sc-grupo@pucp.edu.pe</a>.",
     "button": "Escríbenos un correo",
     "contact": {
       "title": "GIDIS - PUCP",
       "institution": "Pontificia Universidad Católica del Perú (PUCP)",
       "address": "Av. Universitaria 1801, San Miguel, Lima 32, Perú",
       "group": "Grupo de Investigación y Desarrollo en Ingeniería de Software",
-      "email": "<a href=\"mailto:gidis@pucp.edu.pe\" class=\"underline\">gidis@pucp.edu.pe</a>",
+      "email": "<a href=\"mailto:gidis.proy.hii1sc-grupo@pucp.edu.pe\" class=\"underline\">gidis.proy.hii1sc-grupo@pucp.edu.pe</a>",
       "head": "Mg. Abraham Dávila",
       "telephone": "+51 999 340 843"
     },

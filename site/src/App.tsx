@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
-import { Header, Navbar, Hero, MapComponent, Banner, Footer } from './components';
+import { Bar, Header, Navbar, Hero, MapComponent, Banner, SolutionMissionVision, Footer } from './components';
 import Waves from './components/Waves';
 
 const App: React.FC = () => {
 
   return (
     <>
+      {/* <Bar/> */}
       <Header/>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Hero/>
       <MapComponent/>
       <Banner/>
+      <SolutionMissionVision/>
       <Waves/>
       <Footer/>
     </>

@@ -55,7 +55,7 @@ function MapComponent(){
       return 0;  // Mantén el índice en 0 si ya es el primero
     }
     if (newIndex >= totalImages) {
-      return totalImages-1;  // Mantén el índice si ya estás en la última imagen
+      return totalImages - 1;  // Mantén el índice si ya estás en la última imagen
     }
     const textIndex = Math.floor(newIndex / 9);
     setCurrentTextIndex(textIndex);
@@ -92,23 +92,16 @@ function MapComponent(){
   return (
     <section className="min-h-screen">
       <div className="w-full h-screen sticky top-0 left-0">
-        <div className="absolute w-full h-screen">
-          <div className="w-full h-screen grid grid-flow-col grid-cols-2 sm:px-sm md:px-md lg:px-lg xl:px-xl">
-            <div className="flex flex-col items-center justify-center">
-              <div className=" p-6 text-white 
-              bg-radial-gradient from-white from-0% to-green-600 to-70%
-              rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 border border-gray-100">
-                <h2 className="text-3xl xl:text-4xl font-montserrat font-bold mb-4 xl:mb-6">{title}</h2>
-                {Array.isArray(paragraphs) ? (
-                  paragraphs.map((paragraph, index) => (
-                    <p key={index} className="text-lg xl:text-xl font-sans mt-4">
-                      {paragraph}
-                    </p>
-                  ))
-                ) : ''}
-              </div>
-            </div>
-            <div></div>
+        <div className="absolute w-full h-screen flex items-center justify-center">
+          <div className="max-w-lg p-6 text-white bg-radial-gradient from-white from-0% to-green-600 to-70% rounded-3xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-20 border border-gray-100 mx-4">
+            <h2 className="text-3xl xl:text-4xl font-montserrat font-bold mb-4 xl:mb-6">{title}</h2>
+            {Array.isArray(paragraphs) ? (
+              paragraphs.map((paragraph, index) => (
+                <p key={index} className="text-lg xl:text-xl font-sans mt-4">
+                  {paragraph}
+                </p>
+              ))
+            ) : ''}
           </div>
         </div>
         <img src={images[currentImageIndex]} alt={`Mapa Santa Clotilde ${currentImageIndex + 1}`} className="w-full h-full object-cover" />

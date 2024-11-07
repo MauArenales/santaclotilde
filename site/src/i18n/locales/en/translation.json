@@ -1,41 +1,123 @@
 {
+  "barra": {
+    "texto": "WINNERS OF CAP INNOVATION CONTEST PUCP 2024"	
+  },
   "nav": {
     "intro": "INTRODUCTION",
     "justification": "JUSTIFICATION",
     "objectives": "OBJECTIVES",
     "visit": "VISIT TO THE HOSPITAL",
-    "members": "MEMBERS",
+    "members": "PARTICIPANTS",
     "contact": "CONTACT"
   },
   "hero": {
     "title": "Santa Clotilde Project",
-    "description": "Development and Implementation of an Electronic Health Record Management System for the Santa Clotilde Hospital in the Peruvian Amazon",
-    "video-error": "Your browser does not support the video tag. We suggest you upgrade your browser."
+    "description": "Development and Implementation of an Electronic Medical Records Management System for the Santa Clotilde Hospital in the Peruvian Amazon",
+    "video-error": "Your browser does not support the video tag. We suggest updating your browser."
   },
   "map-component": {
     "texts": [
       {
-        "title": "The Santa Clotilde Hospital",
+        "title": "Santa Clotilde",
         "paragraphs": [
-          "Six hours by boat from Iquitos, you will find the town of Santa Clotilde on the banks of the Napo River. This town has a small hospital, the Santa Clotilde Hospital, which is the only hospital along more than 500 kilometers of river.",
-          "Santa Clotilde Hospital is part of the Santa Clotilde Health Micro Network, which includes 15 primary care health facilities and a Peruvian Navy ship (PIAS - Napo River). This network has as its area of influence the Napo River basin, covering a population of approximately 30,000 inhabitants distributed in 112 Amazonian native communities. Despite its importance, it faces serious challenges that limit its capacity to provide adequate medical care. The wide geographical dispersion and lack of resources make effective health coverage difficult for all inhabitants."
+          "In Loreto, one of the poorest and most isolated regions of Peru, six hours by boat from its capital, Iquitos, lies the town of Santa Clotilde on the banks of the Napo River. This town of about 10,000 people has a small hospital—the Santa Clotilde Hospital—the only hospital along more than 500 kilometers of river, serving as the heart of the Napo Health Micro-Network."
         ]
       },
       {
-        "title": "Challenges of the Hospital",
+        "title": "Napo Health Micro-Network",
         "paragraphs": [
-          "The Santa Clotilde Hospital faces many challenges due to its remote location. The lack of adequate infrastructure and limited access to medical supplies are constant problems.",
-          "The situation is aggravated by adverse weather conditions and the lack of specialized medical personnel. Despite these challenges, the hospital remains a vital source of medical care for the region's communities."
+          "The Napo Health Micro-Network includes the Santa Clotilde Hospital, 14 medical outposts, and a Peruvian Navy Ship (PIAS). The network's area of influence covers the entire Napo River basin and provides medical care to a population of 30,000 inhabitants distributed across 112 native Amazonian communities.",
+          "Despite its importance, it faces severe challenges that limit its capacity to provide adequate medical care. The vast geographical dispersion and scarcity of resources hinder effective health coverage for all inhabitants."
         ]
       },
       {
-        "title": "Future of the Hospital",
+        "title": "Santa Clotilde Hospital",
         "paragraphs": [
-          "With the support of various organizations, the Santa Clotilde Hospital is working to improve its facilities and expand its services.",
-          "The goal is not only to provide basic medical care but also to implement preventive health programs and education for local communities."
+          "The Santa Clotilde Hospital is quite unique. Founded in 1986 by two Americans, it receives funding from the Ministry of Health (MINSA), the church, and donations. According to the ministry, this hospital corresponds to the second level of care, category 1, meaning it should offer Outpatient Consultation, Hospitalization, Emergency Services, Obstetric Center, and Surgical Center. However, reality tells a different story.",
+          "Unfortunately, the hospital does not perform surgeries due to a lack of infrastructure and staff. Additionally, being the only Health Service Provider Institution in Santa Clotilde, it also has to provide preventive services typical of a first-level health facility (medical outposts)."
         ]
       }
     ]
   },
-  "language": "Idioma"
+  "banner": {
+    "title": "Problems That Affect Lives",
+    "texts": {
+      "0": {
+        "subtitle": "Cumbersome Processes and Duplicate Records",
+        "paragraph": "The hospital uses both printed formats and reporting systems to MINSA, creating slow and duplicated processes that demand excessive time for recording, consolidation, and data usage."
+      },
+      "1": {
+        "subtitle": "Misuse of Space and Loss of Confidentiality",
+        "paragraph": "The hospital must dedicate several spaces—which could be used for patient care—to store medical records. These records are also susceptible to theft or unauthorized access."
+      },
+      "2": {
+        "subtitle": "Long Waiting Times for Patients",
+        "paragraph": "With paper medical records, patient waiting times are significantly extended due to the need to locate and transport documents. This issue arises not only at the start of care but also during referrals between departments, as there is no staff to carry the records."
+      },
+      "3": {
+        "subtitle": "Diversion of Health Personnel's Time",
+        "paragraph": "Health personnel spend up to 80% of their workday organizing and filling out documents, reducing the time available for direct patient care."
+      },
+      "4": {
+        "subtitle": "Emotional Impact on Health Personnel",
+        "paragraph": "The recurring disorganization and excessive administrative burden emotionally affect health personnel, causing frustration and burnout. Most work several unpaid extra hours to fulfill their duties."
+      },
+      "5": {
+        "subtitle": "Incomplete or Incorrect Medical Records",
+        "paragraph": "Patients' medical records may be incomplete or contain incorrect entries, reducing their usefulness and reliability."
+      },
+      "6": {
+        "subtitle": "Impact on Consolidated Medical Reports",
+        "paragraph": "Medical reports and indicators sent to higher authorities like MINSA and the Regional Government are affected in accuracy and timeliness due to inefficiencies in data management."
+      }
+    }
+  },
+  "solution": {
+    "header": "OUR SOLUTION",
+    "title": "Innovation with Social Impact",
+    "introduction": "We present the Santa Clotilde Project, a joint initiative between software engineering students and researchers from the Pontifical Catholic University of Peru (PUCP) and the dedicated team at Santa Clotilde Hospital.",
+    "point1": "User-Centered Development",
+    "point1Description": "Tailored to the hospital's real needs and the context of the Peruvian Amazon to enhance care and efficiency.",
+    "point2": "International Standards",
+    "point2Description": "Utilizing standards like HL7, SNOMED CT, and ICD-10 to ensure quality and interoperability.",
+    "point3": "System Integration",
+    "point3Description": "Facilitating coordination with MINSA and GERESA for more efficient, high-quality care. Doctors will focus on patient care rather than paperwork."
+  },
+  "mission": {
+    "header": "OUR MISSION",
+    "title": "Digitize to Save Lives",
+    "introduction": "The Santa Clotilde Project aims to implement a Hospital Information System that includes Electronic Medical Records (EMR), focusing in the first phase on the care of children and pregnant women—the hospital's most critical areas. This technological solution will allow us to:",
+    "point1": "Reduce Waiting Times",
+    "point1Description": "Implement more agile processes to serve more patients in less time.",
+    "point2": "Improve Quality of Care",
+    "point2Description": "Provide immediate access to complete and accurate medical information for proper diagnosis and treatment.",
+    "point3": "Optimize Resources",
+    "point3Description": "Free health personnel from administrative tasks so they can focus on what they do best: caring for people's health.",
+    "point4": "Integrate with National Systems",
+    "point4Description": "Facilitate communication and reporting with entities like MINSA and GERESA, improving coordination and health planning."
+  },
+  "footer": {
+    "title": "HELP US MAKE A POSITIVE CHANGE",
+    "subtitle": "Together We Can Make a Difference",
+    "description": "Your support is crucial to transforming the health of thousands of people in the Napo River basin. If you can contribute donations or vital information, contact us today by writing to <a href=\"mailto:gidis.proy.hii1sc-grupo@pucp.edu.pe\" class=\"underline\">gidis.proy.hii1sc-grupo@pucp.edu.pe</a>.",
+    "button": "Send Us an Email",
+    "contact": {
+      "title": "GIDIS - PUCP",
+      "institution": "Pontifical Catholic University of Peru (PUCP)",
+      "address": "Av. Universitaria 1801, San Miguel, Lima 32, Peru",
+      "group": "Research and Development Group in Software Engineering",
+      "email": "<a href=\"mailto:gidis.proy.hii1sc-grupo@pucp.edu.pe\" class=\"underline\">gidis.proy.hii1sc-grupo@pucp.edu.pe</a>",
+      "head": "Mg. Abraham Dávila",
+      "telephone": "+51 999 340 843"
+    },
+    "hospital": {
+      "name": "SANTA CLOTILDE HOSPITAL",
+      "city": "Santa Clotilde, Napo District",
+      "region": "Maynas Province",
+      "country": "Loreto Department, Peru",
+      "website": "<a href=\"https://sanjosedelamazonas.org/santa-clotilde/\" class=\"underline\" target=\"_blank\">sanjosedelamazonas.org/santa-clotilde/</a>"
+    },
+    "pledge": "&copy; 2024 - Santa Clotilde Project"
+  },
+  "language": "Language"
 }
